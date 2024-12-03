@@ -1,0 +1,8 @@
+{% extends "fourth_task/menu.html" %}
+
+
+{% block content %}
+    {% for games_i in games %}
+        <li> {{ games_i }} <button> Купить</button></li>
+    {% endfor %}
+{% endblock %}
