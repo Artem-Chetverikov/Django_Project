@@ -27,7 +27,7 @@ urlpatterns = [
     path('index/', index2.as_view()),
     path('platform/', platform.as_view()),
     path('platform/games/', games.as_view()),
-    path('platform/cart', cart.as_view()),
+    path('platform/cart/', cart.as_view()),
     path('django_sign_up_html/', sign_up_by_html),
     path('django_sign_up_django/', sign_up_by_django),
 
